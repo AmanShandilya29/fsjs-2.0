@@ -1,0 +1,133 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    font-family: Orbitron;
+    margin: 0;
+    padding: 0;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.navbar-container div img{
+    position: relative;
+    left: 150px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+    gap: 120px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.list li:first-child{
+    font-weight: 800;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+.button-group{
+    display: flex;
+    margin-right: 100px;
+    gap: 20px;
+}
+.nav-button{
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    border: 3px solid black;
+}
+.search-icon{
+    margin-top: 10px;
+}
+.hero-container{
+    /* border: 1px solid red; */
+    height: 85vh;
+}
+.hero-container div:nth-child(5){
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+.square{
+    position: relative;
+    left: 375px;
+    top: 450px;
+}
+.hero-container-right{
+    width: 50%;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 950px;
+}
+.hero-heading{
+    font-size: 70px;
+    position: relative;
+    bottom: 150px;
+}
+.hero-description{
+    font-family: Poppins;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+}
+.button-email{
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid black;
+}
+.button-join{
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid black;
+    font-size: 20px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.hero-container-right div:nth-child(3){
+    /* position: relative; */
+    /* left: 200px; */
+    margin-left: 250px;
+}
+.contact-heading{
+    font-family: Poppins;
+    font-size: 25px;
+    /* position: relative; */
+    /* top: 100px; */
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.icons{
+    /* position: relative; */
+    /* left: 300px; */
+    /* top: 120px; */
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.icons span {
+    margin: 5px;
+}
+.globe{
+    position: relative;
+    left: 600px;
+    top: -300px;
+}
+.star{
+    /* float: right; */
+    position: fixed;
+    right: 150px;
+    top: 200px;
+}
+

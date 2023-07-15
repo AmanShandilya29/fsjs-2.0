@@ -1,0 +1,83 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.container{
+    max-width: auto;
+    height: 100vh;
+    background-image:url(./assets/bg.png) ;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+.navbar{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    background-color: #0f0f0f;
+    padding: 20px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    font-weight: 500;
+    gap: 150px;
+    margin-top: 15px;
+    margin-right: 300px;
+    font-size:20px ;
+    /* border:1px solid red; */
+}
+.line::after{
+    content: '|';
+    display: inline;
+    font-size: 50px;
+    font-weight: 100;
+}
+.grow-list ul li:first-child::after{
+    content:' ';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+.button-small{
+    background-color:#a802a8;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.hero{
+    /* border: 1px solid red; */
+    width: 50%;
+    color: #ffffff;
+    align-self: center;
+    position: relative;
+    left: 550px;
+    top: 150px;
+}
+.hero-heading{
+    font-size: 90px;
+    font-weight: 600;
+}
+.hero-description{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.button-large{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color:#a802a8;
+    color: #ffffff;
+    margin-left: 200px;
+}
